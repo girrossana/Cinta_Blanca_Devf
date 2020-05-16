@@ -1,0 +1,25 @@
+
+
+.container{
+border: 1px black solid;
+height: 400px;
+/* ante todo se debe activar el flex */
+display: flex;
+/* mueve los elementos de manera horizontal */
+justify-content: center;
+/* mueve los elementos verticalmente */
+align-items: center;
+/* invierte los ejes y pone los elementos en columna  */
+flex-direction: column-reverse;
+
+}
+.hijo{
+    border: 1px blue solid;
+    height: 30%;
+    width: 40%;
+}
+.hija{
+    border: 1px purple solid;
+    height: 30%;
+    width: 40%;
+}

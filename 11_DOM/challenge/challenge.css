@@ -1,0 +1,36 @@
+
+
+   
+
+.none{
+    display: none;
+}
+
+h1{
+    font-family: fantasy;
+}
+.pizza{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+.nompizza{
+    margin-top: 100px;
+}
+.nompizza, .imgpizza{
+       display: flex;
+    justify-content: center;
+}
+.relleno{
+    width: 400px;
+    margin-top: 20px;
+   margin-left: 400px;
+    
+    }
+.pin-si, .pin-no{
+    width: 200px;
+    height: 200px;
+}
+   

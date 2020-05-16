@@ -1,0 +1,110 @@
+.PADRE{
+    border: 1px black solid;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.HIJO1{
+    border: 1PX blue solid;
+    height: 80%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+ }
+        .NIETO1{
+    border: 1px deeppink solid;
+    height: 15%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+            }
+            .BISNIETO1{
+                border:1px green solid;
+                height: 5%;
+                width: 10%;
+            }
+        .NIETO2{
+    border: 1PX deeppink solid;
+    height: 15%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+        }
+            .BISNIETO2{
+                border: 1PX green solid;
+                height: 5%;
+                width: 10%;
+            }
+        .NIETO3{
+        border: 1PX deeppink solid;
+        height: 15%;
+        width: 20%;
+        display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+            }
+            .BISNIETO3{
+                border: 1px green solid;
+                height: 5%;
+                width: 10%;
+            }
+
+.HIJA2{
+border: 1PX red solid;
+height: 80%;
+width: 30%;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .NIETO4{
+        border: 1px fuchsia solid;
+        height: 15%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .BISNIETO4{
+            border:1px mediumblue solid;
+            height: 5%;
+            width: 10%;
+        }
+    .NIETO5{
+        border: 1px tomato solid;
+        height: 15%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+            }
+            .BISNIETO5{
+                border: 1px blue solid;
+                height: 5%;
+                width: 10%;
+            }
+    .NIETO6{
+        border: 1px royalblue solid;
+        height: 15%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+            .BISNIETO6{
+                border: 1px blue solid;
+                height: 5%;
+                width: 10%;
+            }

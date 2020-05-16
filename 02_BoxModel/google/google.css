@@ -1,0 +1,54 @@
+
+.titulo{
+    border: 1px red solid;
+        display: inline;
+        margin-left: 1110px;
+        padding: 16px;
+}
+.a1{
+    border: 1px black solid;
+}
+.a2{ 
+    border: 1px black solid;
+}
+.imagen1{
+    border: 1px black solid;
+    width: 40px;
+}
+.imagen2{
+    border: 1px black solid;
+    width: 30px;
+    
+}
+
+.cajita{
+    border: 1px black solid;
+    margin: 148px 123px 96px 116px;
+
+}
+.google3{
+    border: 1px orangered solid;
+    margin: 10px 10px 10px 190px;
+}
+.search{
+    border: 1px blue solid;
+    display: inline;
+    margin-left: 430px;
+    }
+    .suerte{
+        border: 1px red solid;
+        display: inline;
+        margin-left: 20px;
+    }
+.google{
+    border: 1px violet solid;
+    margin: 8px 75px 10px 81px;
+
+}
+.input{
+    border:1px blue solid ;
+    margin-left:260px;
+    margin-bottom: 30px;
+  
+
+}

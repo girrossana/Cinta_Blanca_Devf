@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./challengericardo.css">
+    <title>formulario</title>
+</head>
+
+<body>
+    <div class="padre">
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Nombre</span>
+            </div>
+            <input id="preguntaNombre" type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Direccion</span>
+            </div>
+            <input id="preguntaDireccion" type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Telefono</span>
+            </div>
+            <input id="preguntaTelefono" type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm">
+        </div>
+
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">¿ te gusta con piña?</span>
+            </div>
+            <input id="preguntaPizza" type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm">
+        </div>
+
+        <!-- boton -->
+
+        <button id="botonOrdenar" type="button" class="btn btn-dark">Ordenar</button>
+
+
+        <!-- card--respuesta -->
+        <div id="card" class="card none" style="width: 18rem;">
+            <div class="card-body">
+              <h5 id="textoNombre" class="card-title"></h5>
+              <h6 id="textoDireccion" class="card-subtitle mb-2 text-muted"></h6>
+              <p id="textoTelefono" class="card-text"></p>
+              <p id="textoPizza" class="card-text"></p>
+              <img id="sinpin" class="one" src="https://www.recetasdesbieta.com/wp-content/uploads/2018/09/Como-hacer-pizza-casera-rapida-con-masa-de-pizza-sin-repos-1-860x380.jpg" alt="sin piña">
+                <img id="conpin" class="one" src="https://estaticos.miarevista.es/media/cache/760x570_thumb/uploads/images/article/5941496f5bafe808143c9869/ppal-pizzapina.jpg" alt="con piña">
+            </div>
+          </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./challengericardo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

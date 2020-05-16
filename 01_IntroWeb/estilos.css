@@ -1,0 +1,32 @@
+/* selector {
+    propiedades: valor;
+}*/
+*{
+    background-color: #3fb991;
+}
+h1 {
+    color: blue;
+   text-align: center;
+   font-family: 'Oswald', sans-serif;
+   }
+   .my-icon{
+       color: chartreuse;
+       font-size: 100px;
+   }
+   p{
+       color: crimson;
+       font-size: 25px;
+   }
+   a{
+       text-decoration: none;
+       color: darkred;
+   }
+   img{
+       width: 200px;
+       height: 200px;
+       border-radius: 100px;
+          }
+          .l1{
+              color: deeppink;
+          }
+          
